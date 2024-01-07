@@ -14,6 +14,7 @@ header {
     background-image: url('../styles/images/Banner\ Image.png');
     margin: 50px auto;
     text-shadow: 3px 3px 3px #070211;
+    text-align: center;
 }
 
 .banner-top {
@@ -26,11 +27,53 @@ header {
 
 .banner-bottom {
     color: #fff;
-    text-align: center;
     width: 632px;
     font-size: 72px;
     font-weight: 900;
     padding-bottom: 177px;
     padding-left: 334px;
     padding-right: 334px;
+}
+
+main{
+    margin-top: 120px;
+}
+
+.offer {
+    padding: 120px auto;
+    width: 1600px;
+    height: 7335px;
+}
+
+.offer-details {
+    text-align: center;
+    padding: 120px auto;
+
+}
+
+.offer-percentenge {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.offer-massage {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 45px;
+}
+
+.offer-catagories {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.new-year-img {
+    display: block;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
