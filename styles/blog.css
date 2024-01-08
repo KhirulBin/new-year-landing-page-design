@@ -2,16 +2,14 @@
     margin: 0;
 }
 
-body {
-    font-family: 'Merriweather', serif;
-}
-
 header {
     width: 1320px;
     height: 600px;
+    font-family: Merriweather;
     border-radius: 16px;
-    background-color: #070211;
-    background-image: url('../styles/images/Banner\ Image.png');
+    background-image: border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background: url('../styles/images/Banner\ Image.png');
     margin: 50px auto;
     text-shadow: 3px 3px 3px #070211;
     text-align: center;
@@ -43,6 +41,7 @@ main {
     padding: 120px auto;
     width: 1600px;
     height: 935px;
+    font-family: Inter;
 }
 
 .offer-details {
@@ -87,15 +86,17 @@ main {
     display: flex;
 }
 
-.invitation-massage{
+.invitation-massage {
     padding-top: 126px;
     padding-bottom: auto;
     padding-left: 126px;
     padding-right: 39px;
     text-shadow: 3PX 3PX 3px #070211;
 }
+
 .invitation-title {
     color: #FFF;
+    font-family: Merriweather;
     width: 642px;
     font-size: 64px;
     font-weight: 900;
@@ -105,16 +106,19 @@ main {
 .invitation-description {
     width: 697px;
     color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     margin-top: 24px;
 }
 
-.join {
+.joinnow1 {
     color: #FFF;
+    font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    margin-top: 48px;
+    padding-left: 32px;
+    padding-top: 48px;
 }
 
 .img2024 {
@@ -124,3 +128,38 @@ main {
     padding-top: 68px;
     padding-left: 32PX;
 }
+
+.address {
+    width: 1320px;
+    height: 482px;
+    margin: 100px 140px;
+    
+}
+
+.address-box {
+    text-align: center;
+    font-size: 32px;
+    weight: 549px;
+    height: 168px;
+    font-family: Inter;
+}
+
+.address-button {
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    width: 167px;
+    height: 56px;
+    margin: 48px auto 110px auto;
+    text-align: center;
+    margin-left: 576px;
+    margin-right: auto;
+    margin-top: 48px;
+}
+
+.joinnow2 {
+    color: #FFF;
+    font-size: 20px;
+}
+
