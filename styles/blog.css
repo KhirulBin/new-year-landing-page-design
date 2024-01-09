@@ -1,5 +1,5 @@
-* {
-    margin: 0;
+body {
+    margin: 0px auto;
 }
 
 header {
@@ -183,9 +183,9 @@ section>h1 {
 
 .new-year-best-offer {
     width: 1600px;
-    height: 7335px;
+    height: 735px;
     margin-top: 120px;
-    
+
 }
 
 .new-offer {
@@ -220,7 +220,6 @@ section>h1 {
 }
 
 .new-year-img2 {
-    border: circle(50% at 50% 50%);
     border-radius: 463px;
     border: 15px solid #F00;
     width: 463px;
@@ -240,11 +239,101 @@ section>h1 {
     font-size: 20px;
     font-weight: 400;
     width: 276px;
-    
+
 }
 
 .img-group96 {
     width: 140px;
     height: 140px;
     margin-top: 43px;
+}
+
+.right-side-details {
+    padding-bottom: 0px;
+}
+
+.holiday-sale {
+    width: 1600px;
+    height: 735px;
+}
+
+.holiday-sale-box {}
+
+
+.holiday-sale-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-sale-per {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    
+}
+
+.holiday-sale-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1068px;
+}
+
+footer {
+    width: 1600px;
+    height: 709px;
+    background: #070211;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer {
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.address-contacts {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.contacts {
+    padding-right: 135px;
+    line-height: 0px;
+}
+
+.full-address {
+    width: 375px;
+    line-height: 40px;
+}
+
+.socail-link-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 24px;
+}
+
+.copyright-details {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    padding-left: 140px;
+    padding-right: 140px;
 }
